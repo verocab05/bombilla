@@ -1,9 +1,10 @@
 
 <?php
-
+// controlador
 if( isset($_GET['on']) ) echo on();
 else echo off();
 
+//vista
 function on(){
 	return '
 		<a href="index.php?off=1">
